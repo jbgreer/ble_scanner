@@ -124,7 +124,7 @@ static void idle_state_handle(void) {
 /* NRF_LOG_FLUSH - Macro for flushing log data before reset
 */ 
   NRF_LOG_FLUSH();
-/* nmrf_pwr_mgmt_run: Function for running power management; should be run in main loop */
+/* nrf_pwr_mgmt_run: Function for running power management; should be run in main loop */
   nrf_pwr_mgmt_run();
 }
 
